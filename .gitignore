@@ -1,0 +1,27 @@
+# Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+.idea/
+.macos/
+android/.gradle/
+android/app/debug/
+android/app/release/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.iml
+
+# VS Code
+.vscode/
+
+# Generated files
+*.lock
+*.log
+
+# APK and release files
+*.apk
+*.aab
+release/

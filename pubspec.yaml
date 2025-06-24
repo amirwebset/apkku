@@ -1,0 +1,27 @@
+name: apkku
+description: "Aplikasi Jadwal Sholat Otomatis dengan Lokasi dan Nama Kota"
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Tambahan untuk fitur aplikasi
+  http: ^0.13.6             # Untuk koneksi ke Aladhan API
+  geolocator: ^11.0.0       # Untuk akses lokasi pengguna
+  geocoding: ^2.2.0         # Untuk ubah koordinat ke nama kota
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
